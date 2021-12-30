@@ -9,13 +9,13 @@ Yes, it can convert both Hex and RGB colors.
 ## Installation
 
 ```bash
-npm install mix-colors
+npm install mix-colors-palette
 ```
 
 ## Hex Usage
 
 ```javascript
-import { mixColors, blendColors } from "mix-colors";
+import { mixColors, blendColors } from "mix-colors-palette";
 
 // mix colors array
 // mixColors([c1,c2,...],ratio) // default ration 0.5 - min 0 - max 1
@@ -29,7 +29,7 @@ blendColors("#000000", "#FFFFFF", 0.5); // returns #7F7F7F
 ## RGB Usage
 
 ```javascript
-import { mixColors, blendColors } from "mix-colors";
+import { mixColors, blendColors } from "mix-colors-palette";
 
 // mix colors array
 // mixColors([c1,c2,...],ratio) // default ration 0.5 - min 0 - max 1

@@ -1,0 +1,29 @@
+{
+  "name": "mix-colors",
+  "version": "1.0.0",
+  "description": "Mix two different colors/array of colors together.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnasOnGit/mix-colors.git"
+  },
+  "keywords": [
+    "color",
+    "mix",
+    "combine",
+    "rbg",
+    "hex",
+    "mid-color",
+    "middle",
+    "combination"
+  ],
+  "author": "Anas Ikhlas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnasOnGit/mix-colors/issues"
+  },
+  "homepage": "https://github.com/AnasOnGit/mix-colors#readme"
+}

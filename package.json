@@ -1,6 +1,6 @@
 {
     "name": "mix-colors-palette",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Mix two different colors/array of colors together.",
     "main": "index.js",
     "scripts": {

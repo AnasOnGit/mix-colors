@@ -18,7 +18,7 @@ const previsousWorkingMethodBackup = (color1, color2, ratio) => {
 };
 
 // function to only mix two colors (strings)
-const blendColors = (color1, color2, ratio) => {
+const blendColors = (color1, color2, ratio=0.5) => {
     //check to see if we're blending an rgb color instead of hex
     if (checkIsRgb(color1)) {
         color1 = rgbToHex(color1.r, color1.g, color1.b);
@@ -49,7 +49,7 @@ const blendColors = (color1, color2, ratio) => {
 };
 
 // main function to mix color array
-const mixColors = (colorArray, ratio) => {
+const mixColors = (colorArray, ratio=0.5) => {
     let mixedColor = colorArray[0];
     for (let i = 1; i < colorArray.length; i++) {
         mixedColor = blendColors(mixedColor, colorArray[i], ratio);
@@ -57,10 +57,6 @@ const mixColors = (colorArray, ratio) => {
     return mixedColor;
 };
 
-console.log(blendColors("#7f7f7f", "#ff0000", 0.5));
-console.log(blendColors({ r: 0, g: 0, b: 0 }, { r: 255, g: 255, b: 255 }, 0.5));
-
-console.log(mixColors(["#000000", "#ffffff", "#ff0000"], 0.5));
 
 module.exports = {
     mixColors,
